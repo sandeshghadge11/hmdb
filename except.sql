@@ -622,7 +622,6 @@ FROM
             COUNT(*) AS diff_count
         FROM
             (SELECT
-    src_update_dt,
     publisher_cd,
     publisher_accnt_nbr,
     individual_sk,
@@ -683,7 +682,6 @@ FROM
     hmdb_v2.wt_product_order_detail_f
 EXCEPT
 SELECT
-    src_update_dt,
     publisher_cd,
     publisher_accnt_nbr,
     individual_sk,
