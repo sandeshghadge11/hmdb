@@ -1,0 +1,2 @@
+-- SQL script for lt_product_combines_stage_table.sql
+-- Add your SQL statements here for lt_product_combines and wt_product_combines
